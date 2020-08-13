@@ -9,6 +9,9 @@ cc_library_shared {
         "-Werror",
         "-Wextra",
         "-Wall",
+        "-Wno-unused-variable",
+        "-Wno-unused-parameter",
+        "-Wno-unused-function",
     ],
     shared_libs: [
         "libutils",
